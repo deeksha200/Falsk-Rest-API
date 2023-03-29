@@ -1,0 +1,21 @@
+<html>
+   <body>
+      <form action = "http://127.0.0.1:5000/predict" method = "POST" id="dee">
+            <label for="model1">Model1 name</label>
+            <input type = "text" name = "model_simple" id="model1" />
+            <label for="model2">Model2 name</label>
+            <input type = "text" name = "model_holt" id="model2" />
+            <label for="model3">Model3 name</label>
+            <input type = "text" name = "model_holt_expo" id="model3"/>
+            <label for="model4">Model4 name</label>
+            <input type = "text" name = "model_holt_damp" id="model4"/>
+            <label for="model5">Model5 name</label>
+            <input type = "text" name = "holt_winter" id="model5"/>
+            <label for="model6">Model6 name</label>
+            <input type = "text" name = "holt_winter_damp" id="model6"/>
+            <label for="model7">Model7 name</label>
+            <input type = "text" name = "Prophet" id="model7"/>
+      </form>
+      <button type="submit" form="dee" value="Submit">Submit</button>
+   </body>
+</html>
