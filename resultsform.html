@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+ <head>
+ <title>Microbusiness Density</title>
+ </head>
+ <body>
+    <table>
+        <tr> 
+           <th></th>
+           <th>SMAPE</th>
+         </tr>
+         <tr>
+           <th>Simple Exponential</th>
+           <td>{{result[0]}}</td>
+         </tr>
+         <tr> 
+           <th>Holt</th>
+           <td>{{result[1]}}</td>
+        </tr>
+        <tr> 
+           <th>Holt Exponential</th>
+           <td>{{result[2]}}</td>
+        </tr>
+        <tr> 
+            <th>Holt Damped</th>
+            <td>{{result[3]}}</td>
+         </tr>
+         <tr> 
+            <th>Holt Winter</th>
+            <td>{{result[4]}}</td>
+         </tr>
+         <tr> 
+            <th>Holt Winter Damp</th>
+            <td>{{result[5]}}</td>
+         </tr>
+         <tr> 
+            <th>Prophet</th>
+            <td>{{result[6]}}</td>
+         </tr>
+       </table>
+ </body>
+</html>
+
